@@ -40,6 +40,9 @@ y1 = (-w(3)-w(1)*x1)/w(2);
 plot(x1,y1,'-','LineWidth',2);
 legend('Positive samples','Negative samples','Linear programming');
 
+a=-w(1)/w(2);
+b=-w(3)/w(2);
+
 
 % %% svm
 % H = eye(d+1);
